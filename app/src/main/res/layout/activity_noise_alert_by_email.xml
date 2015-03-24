@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/listenStatus"
+            android:layout_width="246dp"
+            android:layout_height="78dp"
+            android:layout_x="38dp"
+            android:layout_y="366dp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="250dp"
+            android:layout_height="215dp"
+            android:layout_x="33dp"
+            android:layout_y="142dp" />
+
+        <com.example.noisealert.SoundLevelView
+            android:id="@+id/volume"
+            android:layout_width="252dp"
+            android:layout_height="60sp"
+            android:layout_x="32dp"
+            android:layout_y="81dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="215dp"
+            android:layout_x="33dp"
+            android:layout_y="142dp"
+            android:contentDescription="ImageView" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

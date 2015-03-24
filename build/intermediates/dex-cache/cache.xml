@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\myproject\Android\AndroidStudioProjects\BabyWatcher\app\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="H:\myproject\Android\AndroidStudioProjects\BabyWatcher\app\build\intermediates\pre-dexed\debug\mail-063a971a276626af084c7164f5e19410f4955a8f.jar" />
+    </item>
+    <item
+        jar="H:\myproject\Android\AndroidStudioProjects\BabyWatcher\app\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="H:\myproject\Android\AndroidStudioProjects\BabyWatcher\app\build\intermediates\pre-dexed\debug\activation-76a4312b4a023b450c3b7e177906ef617cda4664.jar" />
+    </item>
+    <item
+        jar="H:\myproject\Android\AndroidStudioProjects\BabyWatcher\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="H:\myproject\Android\AndroidStudioProjects\BabyWatcher\app\build\intermediates\pre-dexed\debug\additionnal-ac94d4a8a5ba1f182491dba7c0c3bb3b9a0ea18d.jar" />
+    </item>
+
+</items>

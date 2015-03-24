@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image" >
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnManualAdd"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btnManualAdd"
+            android:layout_marginTop="141dp"
+            android:background="@drawable/black_button"
+            android:onClick="show_help"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="5"
+            android:shadowDy="-5"
+            android:shadowRadius="15"
+            android:text="Help" />
+
+        <Button
+            android:id="@+id/btnManualAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/black_button"
+            android:onClick="about_us"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="5"
+            android:shadowDy="-5"
+            android:shadowRadius="15"
+            android:text="About author" />
+    </RelativeLayout>
+
+</ScrollView>

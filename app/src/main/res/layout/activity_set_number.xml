@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image" >
+
+    <EditText
+        android:id="@+id/edtxtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="Parent&apos;s phone number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtxtNumber"
+        android:layout_toRightOf="@+id/edtxtNumber"
+        android:background="@drawable/black_button"
+        android:onClick="btnAdd_actionPerformed"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="5"
+        android:shadowDy="-5"
+        android:shadowRadius="15"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnManualAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignLeft="@+id/edtxtNumber"
+        android:layout_below="@+id/edtxtNumber"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/black_button"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="5"
+        android:shadowDy="-5"
+        android:shadowRadius="15"
+        android:text="Select from contact" />
+
+    <EditText
+        android:id="@+id/edtxtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnManualAdd"
+        android:layout_below="@+id/btnManualAdd"
+        android:layout_marginTop="114dp"
+        android:ems="10"
+        android:hint="Parent&apos;s e-mail address"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAddEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtxtEmail"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_alignRight="@+id/btnAdd"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="5"
+        android:shadowDy="-5"
+        android:background="@drawable/black_button"
+        android:shadowRadius="15"
+        android:onClick="btnAddEmail_actionPerformed"
+        android:text="Add" />
+
+</RelativeLayout>

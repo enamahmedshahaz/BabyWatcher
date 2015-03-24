@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Phone State" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefSilentMode"
+            android:summary="@string/pref_silent_phone_summary"
+            android:title="@string/pref_silent_phone" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefBlockCalls"
+            android:summary="@string/pref_call_blockt_summary"
+            android:title="@string/pref_call_block" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
