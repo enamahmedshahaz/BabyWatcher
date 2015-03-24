@@ -1,5 +1,5 @@
 # BabyWatcher
-This is my Andorid Application to monitor
+This is my Android Application to monitor
 sleeping baby :)
 
 This was done as a semester project in my versity.
